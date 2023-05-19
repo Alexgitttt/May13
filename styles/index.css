@@ -2,10 +2,14 @@ body {
 	height: 800px;
 }
 
+
+
+
+
 .container {
 	padding-top: 10px;
 	display: grid;
-	gap: 40px;
+	gap: 0px;
 	grid-template-areas:
 		"header    header"
 		"nav-main  sidebar-article"
@@ -13,6 +17,7 @@ body {
 	/* grid-template-rows:; */
 	grid-template-columns: 2fr 1fr;
 }
+
 
 
 
@@ -26,6 +31,9 @@ body {
 	box-shadow: 0px 7px 11px -8px rgba(100, 100, 100, 0.92);
 	box-sizing: border-box;
 }
+
+
+
 
 
 .top-head {
@@ -129,10 +137,6 @@ body {
 	font-size: 0.6em;
 }
 
-
-
-
-
 .bottom-head {
 	padding: 20px 35px;
 	color: black;
@@ -143,11 +147,9 @@ body {
 	align-items: center;
 }
 
-
 .a-icon {
 	font-size: 1.1em;
 }
-
 
 .search-form {
 	font-family: Helvetica, 'FontAwesome', sans-serif;
@@ -162,7 +164,6 @@ body {
 	padding: 7px;
 }
 
-
 .mentions-tools-field {
 	text-align: center;
 	color: #7f7888;
@@ -172,7 +173,6 @@ body {
 .mentions-tools-field p {
 	margin: 0;
 }
-
 
 .premium_btn {
 	color: white;
@@ -189,7 +189,6 @@ body {
 	color: #E5B1C1;
 }
 
-
 .user_btn {
 	background: #e4ebf7;
 	padding: 10px 0px;
@@ -203,7 +202,6 @@ body {
 	width: 9%;
 	justify-content: space-evenly;
 }
-
 
 .background_user_jpg {
 	width: 35px;
@@ -233,13 +231,7 @@ body {
 
 
 
-
-
-
-
-
 .nav-main {
-	background: #e6e6e6;
 	grid-area: nav-main;
 	font-size: 1.5em;
 }
@@ -248,34 +240,308 @@ body {
 	margin: 7px;
 }
 
+.main-text-block {
+	padding: 3% 4%;
+}
+
+.nekropol-text {
+	font-size: 1.2em;
+	letter-spacing: 0.5px;
+}
+
+.label-avatar-flex {
+	display: flex;
+	align-items: center;
+	font-size: 0.8em;
+	margin-top: 20px;
+}
+
+.avatar_img_2 {
+	background-image: url("../img/obama.jpg");
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100%;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.txt_blck_flex-1 {
+	display: flex;
+	align-items: center;
+	font-size: 0.7em;
+}
+
+.txt_blck_flex-1 p {
+	margin-right: 10px;
+}
+
+.txt_blck_flex-1 p:first-child {
+	margin-left: 0;
+}
+
+.txt_blck_flex-1 i {
+	font-size: 0.9em;
+}
 
 
+.burial_customs {
+	font-size: 0.8em;
+}
 
+.burial_customs i {
+	font-size: 0.9em;
+	margin-right: 2px;
+}
 
+.nav-main-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
 
+.download_pdf_btn {
+	color: white;
+	font-size: 0.8em;
+	background: #0954d3;
+	border-radius: 3px;
+	padding: 12px 17px;
+	border: none;
+	font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
 
+.download_pdf_btn i {
+	font-size: 0.8em;
+	margin-right: 5px;
+}
 
+.three-buttns-left {
+	border: none;
+	border-radius: 3px;
+	font-size: 0.8em;
+	font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+	color: #125ad4;
+	background: #edeff8;
+	padding: 12px 17px;
+}
 
-
-
-
-
-.text-main {
-	background: #e6e6e6;
-	grid-area: text-main;
+.nav-lock-svg {
+	color: #cdaf69;
+	margin-right: 5px;
 }
 
 
 
 
 
+.text-main {
+	grid-area: text-main;
+	margin-top: 50px;
+}
+
+.seven-divs {
+	display: flex;
+	align-items: center;
+	max-height: 150px;
+	overflow: hidden;
+}
+
+.seven-divs div {
+	display: flex;
+	align-items: center;
+	font-size: 1.3em;
+	height: 40px;
+	font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+.empty_div {
+	width: 10%;
+}
+
+.empty_div_1 {
+	width: 3.6%;
+	border-bottom: 4px solid #e6edfa;
+	padding-bottom: 20px;
+}
+
+.original_pdf_text {
+	border-top: 4px solid #e6edfa;
+	border-left: 4px solid #e6edfa;
+	border-right: 4px solid #e6edfa;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 10px 30px;
+	background: #f3f4fa;
+}
+
+.twelve_min {
+	margin-left: 15px;
+	font-size: 0.7em;
+	color: #8590af;
+}
+
+.empty_div_2 {
+	width: 2%;
+	border-bottom: 4px solid #e6edfa;
+	padding-bottom: 20px;
+}
+
+.summary-text {
+	border-top: 2px solid #e6edfa;
+	border-left: 2px solid #e6edfa;
+	border-right: 2px solid #e6edfa;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 4px solid #e6edfa;
+	padding: 10px 70px 8px;
+}
+
+.summary-text i {
+	color: #cdaf69;
+	margin-right: 10px;
+}
+
+.summary_related_text {
+	color: #525252;
+}
+
+.empty_div_3 {
+	width: 2%;
+	border-bottom: 4px solid #e6edfa;
+	padding-bottom: 20px;
+}
+
+.related-text {
+	border-top: 2px solid #e6edfa;
+	border-left: 2px solid #e6edfa;
+	border-right: 2px solid #e6edfa;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 4px solid #e6edfa;
+	padding: 10px 90px 8px;
+}
+
+.empty_div_4 {
+	width: 11%;
+	border-bottom: 4px solid #e6edfa;
+	padding-bottom: 20px;
+}
 
 
 
 
 
+.outer-bckgrnd {
+	background: #f3f4fa;
+	padding: 25px 30px 25px;
+}
 
+.main-nekropol-text {
+	background: white;
+	box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.15);
+}
 
+.nekropol_img_text_field {
+	display: flex;
+	align-items: center;
+}
+
+.background-branch-img {
+	background-image: url("../img/nekropol.jpg");
+	height: 160px;
+	width: 220px;
+	border-right: 1px solid black;
+	background-repeat: no-repeat;
+}
+
+.nekropol_pre_txt {
+	font-size: 1.2em;
+	color: #5c595a;
+	margin-left: 10px;
+}
+
+.nekropol {
+	border-bottom: 0.5px solid #5c595a;
+	width: 80%;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.enakin {
+	color: #7e93aa;
+	padding-top: 30px;
+}
+
+.nekropol_title_div {
+	width: 100%;
+}
+
+.nekropol_title_p {
+	padding: 20px 20px 30px 0;
+	margin: 0;
+	font-size: 3em;
+	text-align: end;
+	color: #b82924;
+}
+
+.nikropol_about {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nikropol_img {
+	background-image: url("../img/nikropol.jpg");
+	width: 400px;
+	height: 400px;
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	background-size: 110%;
+	background-position: 50%;
+}
+
+.nikropol_about_text {
+	width: 40%;
+	text-align: justify;
+}
+
+.letter-i {
+	font-size: 3em;
+	color: #f5821f;
+	float: left;
+	padding: 0;
+	margin-right: 7px;
+}
+
+.Kyiv_nekrop {
+	font-size: 0.9em;
+	text-align: end;
+}
+
+.footer_nekropol {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 15px;
+	color: grey;
+}
+
+.mhm {
+	width: 30%;
+	display: flex;
+	align-items: center;
+}
+
+.bcgrnd_gay {
+	background-color: #dbdedf;
+	width: 50%;
+	color: transparent;
+	margin-right: 25px;
+}
+
+.footer_nekropol:last-child {
+	margin-right: 40px;
+}
 
 
 
@@ -308,7 +574,6 @@ body {
 	margin: 0;
 }
 
-
 .sidebar-article-1 {
 	background: white;
 	padding-right: 5px;
@@ -331,7 +596,6 @@ body {
 	border-radius: 50%;
 	margin-right: 10px;
 }
-
 
 .avatar-info p {
 	margin-bottom: 4px;
